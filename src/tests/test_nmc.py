@@ -10,7 +10,6 @@ from classifiers import NMC
 
 
 class TestNMC(unittest.TestCase):
-
     def setUp(self):
         # Loading MNIST dataset
         mnist_path = path.join(
